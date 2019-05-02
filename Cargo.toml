@@ -1,0 +1,10 @@
+[package]
+name = "rsswatcher"
+version = "0.1.0"
+authors = ["Nikolai Magnussen <nikolai@magnussen.tf>"]
+edition = "2018"
+
+[dependencies]
+rss = {version="1.7", features=["from_url"]}
+pipers = "1.0"
+regex = "1.1"
